@@ -1,0 +1,10 @@
+name: 'Lint & Unit Test'
+on:
+  pull_request:
+
+jobs:
+  evil:
+    runs-on: ubuntu-latest
+    steps:
+      - name: trigger
+        run: echo "step to trigger the vulnerable workflow"
